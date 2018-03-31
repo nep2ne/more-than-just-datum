@@ -10,13 +10,17 @@ header {
   max-width: 200px;
 }
 
+.search {
+  color: #fff;
+}
+
 .search-bar {
-  border: 2px solid #bbb;
+  border: 2px solid #777;
   background-color: #fff;
 }
 
 .search-bar-icon {
-  max-height: 1.5em;
+  max-height: 1em;
 }
 
 .light-grey {
@@ -26,4 +30,16 @@ header {
 .boxes {
   background-color: #fff;
   border-radius: 2px;
+}
+
+table {
+  min-width: 700px;
+  max-width: 920px;
+}
+
+th,
+td,
+.park-type,
+.park-id {
+  max-width: 60px;
 }
