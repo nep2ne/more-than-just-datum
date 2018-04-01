@@ -17,6 +17,7 @@ header {
 .search-bar {
   border: 2px solid #777;
   background-color: #fff;
+  max-height: 2em;
 }
 
 .search-bar-icon {
