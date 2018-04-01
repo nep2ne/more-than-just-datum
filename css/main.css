@@ -4,7 +4,6 @@ html {
 
 header {
   background-color: #ddd;
-  min-width: 600px;
 }
 
 .logo {
@@ -18,17 +17,17 @@ header {
 .search-bar {
   border: 2px solid #777;
   background-color: #fff;
-  max-height: 2em;
-  min-width: 400px;
+  max-height: 1.75em;
 }
 
 .search-bar-icon {
   max-height: 1em;
+  text-align: left;
 }
 
 .light-grey {
   background-color: #efefef;
-  min-width: 600px;
+  max-width: 240px;
 }
 
 .boxes {
@@ -38,7 +37,7 @@ header {
 
 table {
   min-width: 700px;
-  max-width: 920px;
+  max-width: 1000px;
 }
 
 th,
@@ -46,4 +45,33 @@ td,
 .park-type,
 .park-id {
   max-width: 60px;
+}
+
+@media only screen and (min-width: 25em) {
+
+  header,
+  .light-grey {
+    min-width: 600px;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .light-grey {
+    min-width: 50px;
+  }
+
+  header {
+    min-width: 800px;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  table {
+    width: 900px;
+  }
+
 }
